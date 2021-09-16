@@ -1,0 +1,7 @@
+# Nmap 7.91 scan initiated Sun Aug  8 18:21:08 2021 as: nmap -p- --min-rate 5000 -sU -oN nmap_udp 10.129.207.150
+Warning: 10.129.207.150 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.129.207.150
+Host is up (0.29s latency).
+All 65535 scanned ports on 10.129.207.150 are open|filtered (65385) or closed (150)
+
+# Nmap done at Sun Aug  8 18:23:34 2021 -- 1 IP address (1 host up) scanned in 146.14 seconds

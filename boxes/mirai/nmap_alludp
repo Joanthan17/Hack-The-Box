@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Mon Jul  5 19:54:58 2021 as: nmap -p- -sU --min-rate 10000 -v -oN nmap_alludp 10.10.10.48
+Increasing send delay for 10.10.10.48 from 0 to 50 due to 11 out of 22 dropped probes since last increase.
+Warning: 10.10.10.48 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.10.48
+Host is up (0.13s latency).
+Not shown: 65456 open|filtered ports, 78 closed ports
+PORT      STATE SERVICE
+32414/udp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jul  5 19:56:12 2021 -- 1 IP address (1 host up) scanned in 74.49 seconds

@@ -1,0 +1,5 @@
+/.htpasswd (Status: 403) [Size: 295]
+/.htaccess (Status: 403) [Size: 295]
+/assets (Status: 301) [Size: 311]
+/images (Status: 301) [Size: 311]
+/server-status (Status: 403) [Size: 299]

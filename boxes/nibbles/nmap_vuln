@@ -1,0 +1,3 @@
+# Nmap 7.91 scan initiated Sun May 16 22:39:16 2021 as: nmap -p 80 --script *http* -v -oN nmap_vuln 10.10.10.75
+Pre-scan script results:
+|_http-robtex-shared-ns: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/

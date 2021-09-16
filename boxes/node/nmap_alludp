@@ -1,0 +1,7 @@
+# Nmap 7.91 scan initiated Fri Jun 25 14:59:21 2021 as: nmap -p- -sU --min-rate 10000 -oN nmap_alludp -v -Pn 10.10.10.58
+Nmap scan report for 10.10.10.58
+Host is up.
+All 65535 scanned ports on 10.10.10.58 are open|filtered
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Jun 25 14:59:35 2021 -- 1 IP address (1 host up) scanned in 14.78 seconds

@@ -1,0 +1,1 @@
+# Nmap 7.91 scan initiated Wed Sep 15 15:34:18 2021 as: nmap --script *smb*.nse -p445,139 -oN nmap_smb_scripts -v 10.10.10.4

@@ -1,0 +1,123 @@
+/* Author: Andrew Myers http://apathetic.atwebhosting.com
+ * File: blue-steel.css
+ * Description: Colour scheme and Font information for template. Change this file to create custom colour schemes.
+ *				I have tried to include most elements that you may want to change, but i may have missed some...
+ *		#77AACC		You can always make your own additions of course.
+ */ 
+
+body {
+	color: #666666;
+	border-color: #FFFFFF; /* Sometimes this has to be overridden...not sure why */
+	font-size: 10pt;
+	font-family: "Calibri", Tahoma, Helvetica, sans-serif;	
+}
+.notice   { font-family: Arial, sans-serif; font-size: 10pt; color: #006699; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+margin: 0 0 0 0;
+	color: #3589E3;
+	font-family: Calibri, Tahoma, Arial, sans, sans-serif;
+	font-weight: bolder;
+}
+
+h1, h2, h3{
+	/* Don't want these bold, they make enough impact as normal text */
+	font-weight: normal;
+	color: #3589E3;
+}
+
+#banner p {
+	font-family: Tahoma, Arial, sans, sans-serif; 
+	font-size: larger;
+}
+
+.box h3 {
+	background-color: #cccccc;	
+	color: #FFF; 
+}
+
+.box h4 {
+	background-color: #FAFAFA;	
+	color: #666666; 
+}
+
+#contentfull h3,h1{
+	color:#000000;
+}
+
+#footer {
+	font-size: 9pt;
+	color: #666666;
+}
+
+
+/* Navigation Bar */
+#navigation {
+	color: #FFF;
+	background-color: #C0C0C0;
+	font-family: Tahoma, Arial, Helvetica, sans, sans-serif;
+	font-weight: bolder;
+}
+
+#navigationcat {
+	color: #FFF;
+	background-color: #666666;
+	font-family: Tahoma, Arial, Helvetica, sans, sans-serif;
+	font-weight: bolder;
+}
+/* Form widgets */
+.button {
+	background-image: url('../images/button-bg.jpg');
+	border-color: #cccccc;
+	color: #FFF;
+}
+
+input {
+	background-color: #ffffff;
+	border-color: #C0C0C0;
+}
+
+/* Navigation Link Styles */
+#navigation a, #navigation a:active, #navigation a:visited {
+	color: #FFF;
+	background-color: #C0C0C0;
+	border-color: #C0C0C0;
+	
+}
+
+#navigation a:hover, #navigation a:visited:hover {
+	color: #CC3333;
+	background-color: #E0E0E0;
+	border-color: #757575;
+}
+#navigationcat a, #navigationcat a:active, #navigationcat a:visited {
+	color: #FFF;
+	background-color: #77AACC;
+	border-color: #77AACC;
+	text-decoration: underline;
+	
+}
+
+#navigationcat a:hover, #navigationcat a:visited:hover {
+	color: #CC3333;
+	text-decoration: underline;	
+	background-color: #E0E0E0;
+	border-color: #757575;
+}
+
+
+
+/* Standard Link Styles */
+
+a, a:active {
+	color: #3589E3;
+	text-decoration: underline;
+}
+
+a:hover, a:active:hover, a:visited:hover {
+	color: #CC3333;
+}
+.warning {
+color:#CC3333;
+}

@@ -1,0 +1,30 @@
+# Nmap 7.91 scan initiated Fri Aug  6 22:13:25 2021 as: nmap -p- --min-rate 5000 -v -oN nmap_tcp -Pn 10.10.10.239
+Increasing send delay for 10.10.10.239 from 0 to 5 due to 170 out of 566 dropped probes since last increase.
+Warning: 10.10.10.239 giving up on port because retransmission cap hit (10).
+Increasing send delay for 10.10.10.239 from 640 to 1000 due to 1055 out of 3515 dropped probes since last increase.
+Nmap scan report for 10.10.10.239
+Host is up (0.068s latency).
+Not shown: 65335 closed ports, 181 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3306/tcp  open  mysql
+5000/tcp  open  upnp
+5040/tcp  open  unknown
+5985/tcp  open  wsman
+5986/tcp  open  wsmans
+7680/tcp  open  pando-pub
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49670/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Aug  6 22:14:16 2021 -- 1 IP address (1 host up) scanned in 51.07 seconds

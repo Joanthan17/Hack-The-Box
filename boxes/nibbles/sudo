@@ -1,0 +1,18 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.10.75/nibbbleblog
+[+] Threads:        50
+[+] Wordlist:       /usr/share/seclists/Discovery/Web-Content/common.txt
+[+] Status codes:   200,204,301,302,307,403,500
+[+] User Agent:     gobuster/3.0.1
+[+] Show length:    true
+[+] Extensions:     html,php,jsp,sh,pl,txt,asp,aspx,py,js,rb
+[+] Timeout:        10s
+===============================================================
+2021/05/17 10:21:12 Starting gobuster
+===============================================================
+===============================================================
+2021/05/17 10:26:09 Finished
+===============================================================

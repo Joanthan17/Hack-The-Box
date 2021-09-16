@@ -1,0 +1,14 @@
+# Nmap 7.91 scan initiated Tue Jul 13 20:40:37 2021 as: nmap -p22,80 -sC -sC -oN nmap_scripts 10.10.10.165
+Nmap scan report for 10.10.10.165
+Host is up (0.16s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   2048 aa:99:a8:16:68:cd:41:cc:f9:6c:84:01:c7:59:09:5c (RSA)
+|   256 93:dd:1a:23:ee:d7:1f:08:6b:58:47:09:73:a3:88:cc (ECDSA)
+|_  256 9d:d6:62:1e:7a:fb:8f:56:92:e6:37:f1:10:db:9b:ce (ED25519)
+80/tcp open  http
+|_http-title: TRAVERXEC
+
+# Nmap done at Tue Jul 13 20:40:59 2021 -- 1 IP address (1 host up) scanned in 22.09 seconds
