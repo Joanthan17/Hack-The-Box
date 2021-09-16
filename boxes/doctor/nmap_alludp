@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Sun Aug  1 07:12:19 2021 as: nmap -p- --min-rate 5000 -v -sU -oN nmap_alludp 10.10.10.209
+Nmap scan report for 10.10.10.209
+Host is up (0.11s latency).
+Not shown: 65532 open|filtered ports
+PORT     STATE  SERVICE
+22/udp   closed ssh
+80/udp   closed http
+8089/udp closed unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Aug  1 07:12:46 2021 -- 1 IP address (1 host up) scanned in 26.83 seconds

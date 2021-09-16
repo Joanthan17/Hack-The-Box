@@ -1,0 +1,18 @@
+# Nmap 7.91 scan initiated Sat Aug  7 10:42:15 2021 as: nmap -p- --min-rate 5000 -v -oN nmap_tcp 10.10.10.247
+Increasing send delay for 10.10.10.247 from 0 to 5 due to 478 out of 1592 dropped probes since last increase.
+Increasing send delay for 10.10.10.247 from 40 to 80 due to 865 out of 2883 dropped probes since last increase.
+Increasing send delay for 10.10.10.247 from 320 to 640 due to 1151 out of 3835 dropped probes since last increase.
+Increasing send delay for 10.10.10.247 from 640 to 1000 due to 661 out of 2201 dropped probes since last increase.
+Warning: 10.10.10.247 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.10.247
+Host is up (0.32s latency).
+Not shown: 65530 closed ports
+PORT      STATE    SERVICE
+2222/tcp  open     EtherNetIP-1
+5555/tcp  filtered freeciv
+42135/tcp open     unknown
+46093/tcp open     unknown
+59777/tcp open     unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Aug  7 10:42:43 2021 -- 1 IP address (1 host up) scanned in 28.78 seconds

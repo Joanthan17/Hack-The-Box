@@ -1,0 +1,14 @@
+# Nmap 7.91 scan initiated Fri Jul  9 17:19:57 2021 as: nmap -p22,80 -sC -sC -oN nmap_scripts 10.10.10.24
+Nmap scan report for 10.10.10.24
+Host is up (0.17s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   2048 e9:75:c1:e4:b3:63:3c:93:f2:c6:18:08:36:48:ce:36 (RSA)
+|   256 87:00:ab:a9:8f:6f:4b:ba:fb:c6:7a:55:a8:60:b2:68 (ECDSA)
+|_  256 b6:1b:5c:a9:26:5c:dc:61:b7:75:90:6c:88:51:6e:54 (ED25519)
+80/tcp open  http
+|_http-title:  HTB Hairdresser 
+
+# Nmap done at Fri Jul  9 17:20:02 2021 -- 1 IP address (1 host up) scanned in 5.16 seconds

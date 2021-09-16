@@ -1,0 +1,61 @@
+# Nmap 7.91 scan initiated Mon May 31 09:28:41 2021 as: nmap -p22,111,6697,8067,43085,65534 --script vuln -sV -oN nmap_vuln_scan 10.10.10.117
+Nmap scan report for 10.10.10.117
+Host is up (0.091s latency).
+
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 6.7p1 Debian 5+deb8u4 (protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:6.7p1: 
+|     	EDB-ID:21018	10.0	https://vulners.com/exploitdb/EDB-ID:21018	*EXPLOIT*
+|     	CVE-2001-0554	10.0	https://vulners.com/cve/CVE-2001-0554
+|     	CVE-2015-5600	8.5	https://vulners.com/cve/CVE-2015-5600
+|     	EDB-ID:40888	7.8	https://vulners.com/exploitdb/EDB-ID:40888	*EXPLOIT*
+|     	CVE-2020-16088	7.5	https://vulners.com/cve/CVE-2020-16088
+|     	EDB-ID:41173	7.2	https://vulners.com/exploitdb/EDB-ID:41173	*EXPLOIT*
+|     	CVE-2015-6564	6.9	https://vulners.com/cve/CVE-2015-6564
+|     	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
+|     	CVE-2017-15906	5.0	https://vulners.com/cve/CVE-2017-15906
+|     	SSV:90447	4.6	https://vulners.com/seebug/SSV:90447	*EXPLOIT*
+|     	EDB-ID:45233	4.6	https://vulners.com/exploitdb/EDB-ID:45233	*EXPLOIT*
+|     	EDB-ID:45210	4.6	https://vulners.com/exploitdb/EDB-ID:45210	*EXPLOIT*
+|     	EDB-ID:45001	4.6	https://vulners.com/exploitdb/EDB-ID:45001	*EXPLOIT*
+|     	EDB-ID:45000	4.6	https://vulners.com/exploitdb/EDB-ID:45000	*EXPLOIT*
+|     	EDB-ID:40963	4.6	https://vulners.com/exploitdb/EDB-ID:40963	*EXPLOIT*
+|     	EDB-ID:40962	4.6	https://vulners.com/exploitdb/EDB-ID:40962	*EXPLOIT*
+|     	CVE-2016-0778	4.6	https://vulners.com/cve/CVE-2016-0778
+|     	MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/OPENBSD-OPENSSH-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP9-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP8-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/HUAWEI-EULEROS-2_0_SP5-CVE-2020-14145/	*EXPLOIT*
+|     	MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	4.3	https://vulners.com/metasploit/MSF:ILITIES/F5-BIG-IP-CVE-2020-14145/	*EXPLOIT*
+|     	CVE-2020-14145	4.3	https://vulners.com/cve/CVE-2020-14145
+|     	CVE-2015-5352	4.3	https://vulners.com/cve/CVE-2015-5352
+|     	CVE-2016-0777	4.0	https://vulners.com/cve/CVE-2016-0777
+|_    	CVE-2015-6563	1.9	https://vulners.com/cve/CVE-2015-6563
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          43085/tcp   status
+|   100024  1          46025/udp   status
+|   100024  1          58916/tcp6  status
+|_  100024  1          60705/udp6  status
+6697/tcp  open  irc     UnrealIRCd
+| irc-botnet-channels: 
+|_  ERROR: Closing Link: [10.10.14.15] (Throttled: Reconnecting too fast) -Email djmardov@irked.htb for more information.
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+|_sslv2-drown: 
+8067/tcp  open  irc     UnrealIRCd
+| irc-botnet-channels: 
+|_  ERROR: Closing Link: [10.10.14.15] (Throttled: Reconnecting too fast) -Email djmardov@irked.htb for more information.
+43085/tcp open  status  1 (RPC #100024)
+65534/tcp open  irc     UnrealIRCd
+| irc-botnet-channels: 
+|_  ERROR: Closing Link: [10.10.14.15] (Throttled: Reconnecting too fast) -Email djmardov@irked.htb for more information.
+Service Info: Host: irked.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 31 09:29:08 2021 -- 1 IP address (1 host up) scanned in 27.21 seconds

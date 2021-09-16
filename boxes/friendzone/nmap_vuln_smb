@@ -1,0 +1,1 @@
+# Nmap 7.91 scan initiated Sun Jun  6 13:38:10 2021 as: nmap -p 139,445 --script *smb* -v -oN nmap_vuln_smb -T4 10.10.10.123

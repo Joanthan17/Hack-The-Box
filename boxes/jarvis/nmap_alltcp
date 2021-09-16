@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Sat Jul  3 10:13:23 2021 as: nmap -p- --min-rate 10000 -v -oN nmap_alltcp 10.10.10.143
+Increasing send delay for 10.10.10.143 from 10 to 20 due to 6357 out of 21189 dropped probes since last increase.
+Nmap scan report for 10.10.10.143
+Host is up (0.12s latency).
+Not shown: 65532 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+64999/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jul  3 10:13:33 2021 -- 1 IP address (1 host up) scanned in 10.32 seconds
