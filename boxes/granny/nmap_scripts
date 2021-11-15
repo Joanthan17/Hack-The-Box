@@ -1,0 +1,27 @@
+# Nmap 7.91 scan initiated Fri Oct  1 11:26:48 2021 as: nmap -p80 -sCV -oN nmap_scripts 10.10.10.15
+Nmap scan report for 10.10.10.15
+Host is up (0.068s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+| http-ntlm-info: 
+|   Target_Name: GRANNY
+|   NetBIOS_Domain_Name: GRANNY
+|   NetBIOS_Computer_Name: GRANNY
+|   DNS_Domain_Name: granny
+|   DNS_Computer_Name: granny
+|_  Product_Version: 5.2.3790
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: Under Construction
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Date: Fri, 01 Oct 2021 08:31:42 GMT
+|_  Server Type: Microsoft-IIS/6.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct  1 11:26:59 2021 -- 1 IP address (1 host up) scanned in 11.15 seconds

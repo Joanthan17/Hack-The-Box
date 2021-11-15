@@ -1,0 +1,9 @@
+# Nmap 7.91 scan initiated Sun Sep 26 11:29:50 2021 as: nmap -p- --min-rate 5000 -v -oN nmap_tcp 10.10.10.8
+Nmap scan report for 10.10.10.8
+Host is up (0.12s latency).
+Not shown: 65534 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Sep 26 11:30:17 2021 -- 1 IP address (1 host up) scanned in 27.78 seconds
