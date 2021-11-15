@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Sun Sep 26 16:54:47 2021 as: nmap -p80 --script *drupal* -oN nmap_drupal 10.10.10.9
+Nmap scan report for 10.10.10.9
+Host is up (0.075s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-drupal-enum: 
+|   Modules: 
+|     ctools
+|_    libraries
+
+# Nmap done at Sun Sep 26 17:02:22 2021 -- 1 IP address (1 host up) scanned in 455.30 seconds

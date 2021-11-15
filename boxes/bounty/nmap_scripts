@@ -1,0 +1,14 @@
+# Nmap 7.91 scan initiated Tue Oct 19 22:35:05 2021 as: nmap -p80 -sCV -oN nmap_scripts 10.10.10.93
+Nmap scan report for 10.10.10.93
+Host is up (0.24s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: Bounty
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 19 22:35:23 2021 -- 1 IP address (1 host up) scanned in 17.83 seconds
